@@ -17,7 +17,7 @@ cd /var/opt/cimitra/scritps/edir
 
 5. Edit the settings_edir.cfg file with variables needed to authenticate to your eDirectory tree via LDAP
 
-6. Run: ./cimitra_edir.sh -Action "<some action>"
+6. Run: ./cimitra_edir.sh -Action "[some action]"
   
 EXAMPLE: ./cimitra_edir.sh -Action "UserReport" -UserId "jdoe" -Context "ou=users,o=cimitra"
   
