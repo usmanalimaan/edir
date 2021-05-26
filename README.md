@@ -20,3 +20,8 @@ cd /var/opt/cimitra/scritps/edir
 6. Run: ./cimitra_edir.sh -Action "<some action>"
   
 EXAMPLE: ./cimitra_edir.sh -Action "UserReport" -UserId "jdoe" -Context "ou=users,o=cimitra"
+  
+-OR- 
+ 
+EXAMPLE: ./cimitra_edir.sh -Action "ListAllUsersInTree"
+ 
